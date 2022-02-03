@@ -17,5 +17,10 @@ class telaPrincipalActivity : AppCompatActivity() {
             val intent = Intent(this,EnderecoActivity::class.java);
             startActivity(intent);
         }
+        binding.btListar.setOnClickListener { view ->
+            val intent = Intent(this,listarActivity::class.java);
+            startActivity(intent);
+         }
+
     }
 }

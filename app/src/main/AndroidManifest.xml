@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinFireBase">
         <activity
+            android:name=".listarActivity"
+            android:exported="false" />
+        <activity
             android:name=".EnderecoActivity"
             android:exported="false" />
         <activity
